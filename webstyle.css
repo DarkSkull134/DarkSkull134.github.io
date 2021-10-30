@@ -1,15 +1,41 @@
-* {
+body {
+		margin: 0;
 		background-color: black;
 		background-image: url("dhwp.jpg");
 		background-repeat: no-repeat;
 		background-position: center;
 		background-attachment: fixed;
-		background-size: auto;
+		background-size: small;
 	}
 h1 {
+
 	text-align: center;
 	color: greenyellow;
 }
+
+ul {
+	list-style: none;
+	padding: 0;
+}
+
+li {
+	display: inline-block;
+	padding: 10px 40px;
+}
+
+a {
+	color: greenyellow;
+}
+
+header {
+	margin: 0;
+}
+
+div {
+	margin: 0;
+	text-align: center;
+}
+
 #first_para {
 	font-family: cursive;
 	color: limegreen;
